@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#calculator{
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+
+#calculator>input{
+    width: 99%;
+    margin: 2px;
+    height: 5rem;
+}
+
+
+#btns>button{
+    padding: 20px;
+    margin: 10px;
+    width: 70px;
+}
+
