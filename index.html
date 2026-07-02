@@ -9,13 +9,13 @@
 </head>
 <body>
     <div id="calculator">
-        <input type="number" name="calculator" id="display"><br><br>
+        <input type="text" name="calculator" id="display" readonly><br><br>
 
         <section id="btns">
 
             <button class="allclear" onclick="clearDisplay()">AC</button>
-            <button class="clear" onclick="deleteLast()">⌫</button>
-            <button class="equal" onclick="append('=')">=</button>
+            <button class="clear" onclick="deleteLast()">C</button>
+            <button class="equal" onclick="calculate()">=</button>
             <button class="operator" onclick="append('+')">+</button><br>
             <button class="number" onclick="append('1')">1</button>
             <button class="number" onclick="append('2')">2</button>
